@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button{
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+body {
+    background-image: url("./images/loginbackground.png");
+    font-family: 'Orbitron', sans-serif;
+    line-height: 1.2;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 6px 0;
+    background-color: #343434;
+    color: #fff;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+header nav li a{
+    display: inline;
+    margin-left: 20px;
+    color:#fff;
+    text-decoration: none;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a:hover {
+    color: #8e47e7;
+}
+
+header img{
+    width: 80px;
+    height: 80px;
+}
+
+form {
+    background-color: #fff;
+    padding: 40px;
+    margin: 40px 25rem 5px 25rem;
+    border-radius: 5px;
+}
+
+form h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.text,
+.password {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.submit{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.795);
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #8e47e7;
+}
+
+p{
+    margin: 2px 25rem;
+}
+
+p a{
+    color: #8e47e7;
+    
+}
+
+p a:hover{
+    color:#e44fdc;
+    text-decoration: underline;
+}
+
+.noaccount{
+    color: #fff;
+}
